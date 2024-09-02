@@ -1,77 +1,94 @@
+
 *{
     margin:0;
     padding:0;
-}nav{
-    background-color: black;
-    color:white;
-    padding:20px;
-
 }
-h1,ul,li{
+.button1{
+    margin-top:10px;
     display:inline;
-}
-ul{
-    margin-left:30%;
-}
-li{
-    margin-right:10px;
-    cursor:pointer;
-}
-li:hover{
-    color:gray;
-}
-input{
-    width:60%;
-}
-.search{
-    padding:25px;
-    text-align:center;
-}
-.box{
-    border-color:black;
-    border-width: 5px;
-    border-style:solid;
-    padding:10px;
-    display:inline-block;
-    width:200px;
-}
-.box:hover{
-    background-color: black;
-    color:white;
-}
-p:hover{
-    background-color: yellow;
-    color:black;
-    border-color:black;
-    border-width:3px;
-    border-style:dotted;
     padding:20px;
-}
-
-.products
-{
-    text-align:center;
-    padding:50px;
-}
-h1{
-    color:black;
-    display:inline;
-}
-.about{
-    text-align:center;
-    padding:20px;
-}
-.contact{
-        background-color: black;
-        color:gray;
-        padding:20px;
-        text-align:center;
     
 }
-p:hover{
-    padding-top:20px;
+button{
+    background-color: lightsteelblue;
+    border-radius: 12px;
     color:white;
+    padding:7px;
+    margin-top:10px;
+    border:none;
+    margin-right:10px;
+    font-weight:bold;
 }
-p{
-    padding-top:20px;
+button:hover{
+    background-color: dimgrey;
+    cursor:pointer;
+    color:black;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    color:white;
+    padding:20px;
+}
+.liked{
+    display:flex;
+    flex-basis:20%;
+    flex-grow:1;
+    padding:10px;
+    gap:16px;
+    align-items: center;
+}
+.liked:hover{
+    background-color:dimgrey;
+    cursor:pointer;
+}
+.pictures{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    padding:5px;
+}
+.about{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+}
+a{
+    color:grey;
+}
+.box{
+    flex:1;
+    text-align:center ;
+    padding:5px;  
+
+}
+.box:hover{
+    background-color:dimgray;
+    cursor:pointer;
+}
+.fav{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    padding:7px;
+}
+.artist{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+}
+.box2{
+    flex:1;
+    padding:5px; 
+    text-align:center; 
+    transition:background-color 0.15s;
+}
+.ro{
+    border-radius: 100px;;
+}
+.box2:hover{
+    background-color: dimgray;
+    cursor:pointer;
+
 }
